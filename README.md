@@ -21,46 +21,47 @@ Icons: React Icons (Font Awesome)
 
 Routing: React Router DOM
 
-📂 Project Structure
-
-gsocinfo/
-├── public/               # Static assets
-├── src/
-│   ├── assets/           # Images, fonts, etc.
-│   ├── components/       # Reusable components
-│   │   ├── Sidebar.jsx   # Navigation sidebar
-│   │   ├── Header.jsx    # Page header
-│   │   └── ContentCard.jsx # Content card component
-│   ├── pages/           # Page components
-│   │   ├── Home.jsx     # Homepage
-│   │   ├── WhatIsGsoc.jsx # What is GSoC page
-│   │   ├── GettingStarted.jsx # Getting started guide
-│   │   ├── Timeline.jsx # GSoC timeline
-│   │   ├── Projects.jsx # Project archives
-│   │   ├── Glossary.jsx # Terminology glossary
-│   │   └── Faq.jsx      # Frequently Asked Questions
-│   ├── App.jsx          # Main app component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
-├── package.json         # Project dependencies
-└── vite.config.js       # Vite configuration
 
 
-🎨 Customization
+## 📂 Project Structure
+
+- **public/**
+  - `favicon.ico` - Site favicon
+- **src/**
+  - **assets/** - Static assets (images, fonts, etc.)
+  - **components/** - Reusable React components
+    - `Sidebar.jsx` - Navigation sidebar component
+    - `Header.jsx` - Page header component
+    - `ContentCard.jsx` - Content card component
+  - **pages/** - Page components
+    - `Home.jsx` - Homepage component
+    - `WhatIsGsoc.jsx` - "What is GSoC" page
+    - `GettingStarted.jsx` - Getting started guide
+    - `Timeline.jsx` - GSoC timeline page
+    - `Projects.jsx` - Project archives
+    - `Glossary.jsx` - Terminology glossary
+    - `Faq.jsx` - Frequently Asked Questions
+  - `App.jsx` - Main application component
+  - `main.jsx` - Application entry point
+  - `index.css` - Global styles
+- `package.json` - Project dependencies and scripts
+- `vite.config.js` - Vite configuration
+
+## Customization
 You can easily customize the color scheme by modifying the CSS variables in src/index.css:
 
 
-:root {
+```:root {
   --primary: #00f5c3;
   --bg: #0a0f1a;
   --card-bg: rgba(255, 255, 255, 0.06);
   --glass: rgba(255, 255, 255, 0.04);
   --text-light: #f1f5f9;
   --text-dim: #94a3b8;
-}
+}```
 
 
-🙏 Acknowledgments
+## Acknowledgments
 Google Summer of Code for inspiring this project
 
 Vite and Tailwind CSS teams for amazing developer tools
