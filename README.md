@@ -1,78 +1,69 @@
-# 🧠 GSoC Learn Hub
+📝 Overview
+GSoC Learn Hub is a comprehensive documentation website designed to help students navigate the Google Summer of Code (GSoC) program. The platform provides structured learning resources, from basic concepts to advanced preparation strategies, all presented in an engaging, easy-to-digest format.
 
-A comprehensive learning platform for Google Summer of Code, designed to help students navigate from complete beginner to GSoC success.
+✨ Features
+Responsive Design: Works seamlessly on desktop, tablet, and mobile devices
 
-## 🚀 Features
+Modern UI: Clean, dark-themed interface with glassmorphism effects
 
-- **Structured Learning Path**: From GSoC basics to advanced proposal writing
-- **Beautiful UI**: Dark theme with glassmorphism effects and smooth animations
-- **Responsive Design**: Works perfectly on desktop and mobile
-- **Interactive Navigation**: Sidebar with categorized content
-- **Comprehensive Content**: Covers all aspects of GSoC journey
+Sidebar Navigation: Persistent on desktop, collapsible hamburger menu on mobile
 
-## 📦 Installation
+Organized Content: Well-structured information about GSoC fundamentals
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Interactive Elements: Hover effects, smooth transitions, and intuitive navigation
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+🛠️ Tech Stack
+Frontend: React + Vite
 
-4. Open your browser and navigate to `http://localhost:5173`
+Styling: Tailwind CSS
 
-## 🛠️ Built With
+Icons: React Icons (Font Awesome)
 
-- **React** - Frontend library
-- **Vite** - Build tool
-- **Tailwind CSS** - Styling
-- **Lucide React** - Icons
+Routing: React Router DOM
 
-## 📁 Project Structure
+📂 Project Structure
 
-```
-src/
-├── components/          # React components
-│   ├── Header.jsx      # Top navigation bar
-│   ├── Sidebar.jsx     # Left navigation panel
-│   └── ContentArea.jsx # Main content display
-├── data/
-│   └── content.js      # All content data
-├── App.jsx             # Main app component
-├── index.css           # Global styles
-└── main.jsx            # Entry point
-```
+gsocinfo/
+├── public/               # Static assets
+├── src/
+│   ├── assets/           # Images, fonts, etc.
+│   ├── components/       # Reusable components
+│   │   ├── Sidebar.jsx   # Navigation sidebar
+│   │   ├── Header.jsx    # Page header
+│   │   └── ContentCard.jsx # Content card component
+│   ├── pages/           # Page components
+│   │   ├── Home.jsx     # Homepage
+│   │   ├── WhatIsGsoc.jsx # What is GSoC page
+│   │   ├── GettingStarted.jsx # Getting started guide
+│   │   ├── Timeline.jsx # GSoC timeline
+│   │   ├── Projects.jsx # Project archives
+│   │   ├── Glossary.jsx # Terminology glossary
+│   │   └── Faq.jsx      # Frequently Asked Questions
+│   ├── App.jsx          # Main app component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles
+├── package.json         # Project dependencies
+└── vite.config.js       # Vite configuration
 
-## 🎨 Design System
 
-- **Primary Color**: `#00f5c3` (Cyan)
-- **Background**: `#0a0f1a` (Dark blue)
-- **Cards**: Glass morphism with backdrop blur
-- **Typography**: Segoe UI system font
+🎨 Customization
+You can easily customize the color scheme by modifying the CSS variables in src/index.css:
 
-## 📝 Content Categories
 
-1. **Getting Started**: GSoC basics, eligibility, timeline
-2. **Open Source Basics**: Git, GitHub, contribution workflow
-3. **GSoC Process**: Organizations, proposals, coding period
-4. **Resources**: FAQs, tips, success stories, useful links
+:root {
+  --primary: #00f5c3;
+  --bg: #0a0f1a;
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --glass: rgba(255, 255, 255, 0.04);
+  --text-light: #f1f5f9;
+  --text-dim: #94a3b8;
+}
 
-## 🤝 Contributing
 
-Feel free to contribute by:
-- Adding more content sections
-- Improving the UI/UX
-- Adding new features
-- Fixing bugs
+🙏 Acknowledgments
+Google Summer of Code for inspiring this project
 
-## 📄 License
+Vite and Tailwind CSS teams for amazing developer tools
 
-This project is open source and available under the [MIT License](LICENSE).
+React community for continuous innovation
 
-## 🌟 Acknowledgments
-
-Created with ❤️ for the open source community and aspiring GSoC participants.
