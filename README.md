@@ -58,8 +58,8 @@ You can easily customize the color scheme by modifying the CSS variables in src/
   --glass: rgba(255, 255, 255, 0.04);
   --text-light: #f1f5f9;
   --text-dim: #94a3b8;
-}```
-
+}
+```
 
 ## Acknowledgments
 Google Summer of Code for inspiring this project
