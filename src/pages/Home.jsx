@@ -11,7 +11,7 @@ return (
         Google Summer of Code (GSoC) is a global program by Google that gives students and open-source beginners the opportunity to contribute to real-world projects during the summer. You work with open-source organizations, write code, get mentored, and earn a stipend — usually $750, %1,500, $3,000 for small, medium, and large projects..........
         </ContentCard>
     </Link>
-
+ 
     <Link to="getting-started">
         <ContentCard title="🚀 Getting Started" icon="🚀">
         Getting started with GSoC begins with understanding how open source works. Start by exploring past organizations on the GSoC website, and look for projects that match your interests — like frontend, backend, Python, machine learning, etc. Begin contributing by finding bugs, fixing errors, improving documentation, or solving beginner issues..........

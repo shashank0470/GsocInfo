@@ -1,14 +1,16 @@
+import { Link } from 'react-router-dom';
+
 export default function WhatIsGsoc() {
   return (
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-[var(--primary)]">What is Google Summer of Code?</h2>
       <div className="prose prose-invert max-w-none">
         <p className="text-[var(--text-dim)]">
-          Google Summer of Code (GSoC) is a global program by Google that gives students and open-source beginners the opportunity to contribute to real-world projects during the summer. You work with open-source organizations, write code, get mentored, and earn a stipend — usually $750, $1,500, or $3,000 for small, medium, and large projects.
+          Google Summer of Code (GSoC) is a global program by Google that gives students and open-source beginners the opportunity to contribute to real-world projects during the summer. You work with open-source organizations, write code, get mentored, and earn a stipend — usually <span className="text-amber-600">$750, $1,500, or $3,000 </span> for small, medium, and large projects.
 
           GSoC is not a traditional internship. Instead of working for Google directly, you contribute to a project under a selected open-source organization, with the help of experienced mentors who guide and review your work. It’s a way to learn by doing — with real-world code, meaningful impact, and global community collaboration.
         </p>
-        
+         
         <h3 className="text-xl font-semibold text-[var(--primary)] mt-6">Key Features</h3>
         <br />
         <ul className="list-disc pl-6 space-y-2 text-[var(--text-dim)]">
@@ -47,6 +49,8 @@ export default function WhatIsGsoc() {
         
         </div>
       </div>
+      <Link to="/getting-started" className='hover:text-blue-700'>&gt;&gt;Getting Started</Link>
     </div>
+    
   )
 }
